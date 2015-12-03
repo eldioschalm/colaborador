@@ -1,0 +1,6 @@
+# for install python-ldap
+# $ sudo aptitude install libsasl2-dev python-dev libldap2-dev libssl-dev
+# $ pip install python-ldap
+
+django==1.8.7
+python-ldap==2.4.22

@@ -1,0 +1,9 @@
+/bin
+/include
+/lib
+/local
+/.git
+/.idea
+*.pyc
+db.sqlite3
+settings.conf

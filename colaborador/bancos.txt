@@ -1,0 +1,148 @@
+654	Banco A.J.Renner S.A.
+246	Banco ABC Brasil S.A.
+75	Banco CR2 S.A.
+25	Banco Alfa S.A.
+641	Banco Alvorada S.A.
+65	Banco Andbank (Brasil) S.A.
+213	Banco Arbi S.A.
+19	Banco Azteca do Brasil S.A.
+24	Banco BANDEPE S.A.
+740	Banco Barclays S.A.
+107	Banco BBM S.A.
+96	Banco BM&FBOVESPA de Serviços de Liquidação e Custódia S.A
+318	Banco BMG S.A.
+752	Banco BNP Paribas Brasil S.A.
+248	Banco Boavista Interatlântico S.A.
+218	Banco Bonsucesso S.A.
+63	Ibibank S.A. - Banco Múltiplo
+36	Banco Bradesco BBI S.A.
+122	Banco Bradesco BERJ S.A.
+204	Banco Bradesco Cartões S.A.
+394	Banco Bradesco Financiamentos S.A.
+237	Banco Bradesco S.A.
+208	Banco BTG Pactual S.A.
+263	Banco Cacique S.A.
+473	Banco Financial Português S.A.
+412	Banco Capital S.A.
+40	Banco Cargill S.A.
+	Banco Caterpillar S.A.
+266	Banco Cédula S.A.
+739	Banco Cetelem S.A.
+233	Banco Cifra S.A.
+745	Banco Citibank S.A.
+241	Banco Clássico S.A.
+0	Banco CNH Industrial Capital S.A.
+	Banco Commercial Investment Trus do Brasil S.A.
+95	Banco Confidence de Câmbio S.A.
+756	Banco Cooperativo do Brasil S.A. - BANCOOB
+748	Banco Cooperativo Sicredi S.A.
+222	Banco Credit Agricole Brasil S.A.
+505	Banco Credit Suisse (Brasil) S.A.
+	Banco CSF S.A.
+3	Banco da Amazônia S.A.
+83	Banco da China Brasil S.A.
+707	Banco Daycoval S.A.
+300	Banco de La Nacion Argentina
+495	Banco de La Provincia de Buenos Aires
+494	Banco de La Republica Oriental del Uruguay
+0	Banco de Lage Landen Brasil S.A.
+456	Banco de Tokyo-Mitsubishi UFJ Brasil S.A.
+1	Banco do Brasil S.A.
+47	Banco do Estado de Sergipe S.A.
+37	Banco do Estado do Pará S.A.
+41	Banco do Estado do Rio Grande do Sul S.A.
+4	Banco do Nordeste do Brasil S.A.
+265	Banco Fator S.A.
+224	Banco Fibra S.A.
+626	Banco Ficsa S.A.
+	Banco Fidis S.A.
+0	Banco Ford S.A.
+121	Banco Gerador S.A.
+0	Banco GMAC S.A.
+612	Banco Guanabara S.A.
+0	Banco Honda S.A.
+0	Banco IBM S.A.
+604	Banco Industrial do Brasil S.A.
+320	China Construction Bank (Brasil) Banco Multiplo S.A.
+653	Banco Indusval S.A.
+630	Banco Intercap S.A.
+77	Banco Intermedium S.A.
+249	Banco Investcred S.A.
+184	Banco Itaú BBA S.A.
+29	Banco Itaú BMG Consignado S.A.
+0	Banco Itaú Veículos S.A.
+479	Banco ItaúBank S.A
+	Banco Itaucard S.A.
+	Banco ITAULEASING S.A.
+74	Banco J. Safra S.A.
+376	Banco J. P. Morgan S.A.
+217	Banco John Deere S.A.
+76	Banco KDB S.A.
+757	Banco KEB do Brasil S.A.
+168	HSBC Finance (Brasil) S.A. - Banco Múltiplo
+600	Banco Luso Brasileiro S.A.
+243	Banco Máxima S.A.
+0	Banco Maxinvest S.A.
+389	Banco Mercantil do Brasil S.A.
+	Banco Mercedes-Benz S.A.
+370	Banco Europeu para a America Latina (BEAL) S.A.
+746	Banco Modal S.A.
+0	Banco Moneo S.A.
+66	Banco Morgan Stanley S.A.
+79	Banco Original do Agronegócio S.A.
+212	Banco Original S.A.
+712	Banco Ourinvest S.A.
+623	Banco PAN S.A.
+611	Banco Paulista S.A.
+613	Banco Pecúnia S.A.
+94	Banco Petra S.A.
+643	Banco Pine S.A.
+735	Banco Pottencial S.A.
+0	Banco PSA Finance Brasil S.A.
+747	Banco Rabobank International Brasil S.A.
+88	Banco Randon S.A.
+633	Banco Rendimento S.A.
+741	Banco Ribeirão Preto S.A.
+120	Banco Rodobens S.A.
+422	Banco Safra S.A.
+33	Banco Santander (Brasil) S.A.
+743	Banco Semear S.A.
+	Casa Bancária do Comércio e Indústria do Rio de Janeiro S.A.
+637	Banco Sofisa S.A.
+464	Banco Sumitomo Mitsui Brasileiro S.A.
+82	Banco Topázio S.A.
+0	Banco Toyota do Brasil S.A.
+634	Banco Triângulo S.A.
+18	Banco Tricury S.A.
+0	Banco Volkswagen S.A.
+0	Banco Volvo (Brasil) S.A.
+655	Banco Votorantim S.A.
+610	Banco VR S.A.
+119	Banco Western Union do Brasil S.A.
+124	Banco Woori Bank do Brasil S.A.
+	Banco Yamaha Motor S.A.
+21	BANESTES S.A. Banco do Estado do Espírito Santo
+719	Banif-Banco Internacional do Funchal (Brasil)S.A.
+755	Banco Merrill Lynch S.A.
+81	BBN Banco Brasileiro de Negócios S.A.
+250	BCV - Banco de Crédito e Varejo S.A.
+17	BNY Mellon Banco S.A.
+69	BPN Brasil Banco Múltiplo S.A.
+	Banco Prime S.A.
+70	BRB - Banco de Brasília S.A.
+104	Caixa Econômica Federal
+477	Citibank N.A.
+487	Deutsche Bank S.A. - Banco Alemão
+64	Goldman Sachs do Brasil Banco Múltiplo S.A.
+62	Hipercard Banco Múltiplo S.A.
+399	HSBC Bank Brasil S.A. - Banco Múltiplo
+	ICBC DO BRASIL BANCO MULTIPLO S A - ICBC DO BRASIL
+492	ING Bank N.V.
+346	Banco Francês e Brasileiro S.A.
+341	Itaú Unibanco S.A.
+488	JPMorgan Chase Bank
+14	Natixis Brasil S.A. Banco Múltiplo
+753	Novo Banco Continental S.A. - Banco Múltiplo
+254	Paraná Banco S.A.
+	Scania Banco S.A.
+751	Scotiabank Brasil S.A. Banco Múltiplo

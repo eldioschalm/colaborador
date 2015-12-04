@@ -18,3 +18,17 @@ $ pip install -r requirements.txt
 rodar migração do projeto:
 
 $ python manage.py migrate
+
+criar um super usuário para o sistema administrativo
+
+$ python manage.py createsuperuser
+
+
+obs.: depois de criar uma app, rodar
+$ python python manage.py makemigrations <nome-da-app>
+$ python manage.py migrate
+
+
+" mudar nome da app "
+class Meta:
+    app_label = 'core_backend'

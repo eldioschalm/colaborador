@@ -8,6 +8,7 @@ from django.conf import settings
 class Migration(migrations.Migration):
 
     dependencies = [
+        ('banco', '__first__'),
         migrations.swappable_dependency(settings.AUTH_USER_MODEL),
     ]
 
@@ -21,6 +22,7 @@ class Migration(migrations.Migration):
                 ('telefone', models.CharField(max_length=15, verbose_name=b'Telefone')),
                 ('agencia', models.CharField(max_length=10, verbose_name=b'Ag\xc3\xaancia Banc\xc3\xa1ria')),
                 ('conta', models.CharField(max_length=10, verbose_name=b'Conta Corrente')),
+                ('banco', models.ForeignKey(to='banco.Banco')),
                 ('user', models.OneToOneField(to=settings.AUTH_USER_MODEL)),
             ],
             options={

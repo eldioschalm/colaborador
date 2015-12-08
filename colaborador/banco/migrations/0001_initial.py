@@ -17,5 +17,9 @@ class Migration(migrations.Migration):
                 ('numero', models.IntegerField(unique=True, verbose_name=b'N\xc3\xbamero do Banco')),
                 ('nome', models.CharField(max_length=200, verbose_name=b'Nome do Banco')),
             ],
+            options={
+                'verbose_name': 'Banco',
+                'verbose_name_plural': 'Bancos',
+            },
         ),
     ]

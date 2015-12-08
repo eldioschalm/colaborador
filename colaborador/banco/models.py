@@ -6,3 +6,10 @@ from django.db import models
 class Banco(models.Model):
     numero = models.IntegerField(verbose_name='Número do Banco', unique=True)
     nome = models.CharField(max_length=200, blank=False, null=False, verbose_name='Nome do Banco')
+
+    class Meta:
+        verbose_name = 'Banco'
+        verbose_name_plural = 'Bancos'
+
+    def __unicode__(self):
+        return self.nome

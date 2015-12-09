@@ -8,7 +8,7 @@ from colaborador.banco.models import Banco
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    cpf = models.CharField(max_length=11, blank=False, null=False, verbose_name='CPF', unique=True)
+    cpf = models.CharField(max_length=14, blank=False, null=False, verbose_name='CPF', unique=True)
     nit = models.CharField(max_length=14, verbose_name='NIT, antigo PIS/PASEP')
     telefone = models.CharField(max_length=15, verbose_name='Telefone')
     banco = models.ForeignKey('banco.Banco')

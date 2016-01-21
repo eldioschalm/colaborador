@@ -17,5 +17,8 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
+    url(r'^accounts/login/$', 'colaborador.useraccount.views.auth_login', name='login'),
+    url(r'^accounts/logout/$', 'colaborador.useraccount.views.auth_logout', name='logout'),
+    url(r'^/$', 'colaborador.core.views.landinpage', name='landingpage'),
     url(r'^admin/', include(admin.site.urls)),
 ]

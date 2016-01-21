@@ -4,3 +4,5 @@
 
 django==1.8.7
 python-ldap==2.4.22
+django-extensions==1.6.1 # para rodar o shell_plus
+ipython==4.0.3 # para auto completar no shell

@@ -3,6 +3,7 @@ __author__ = 'eldio'
 
 from django import forms
 from django.forms import ModelForm
+from django.contrib.auth.models import User
 from colaborador.userprofile.models import UserProfile
 
 class UserProfileForm(ModelForm):

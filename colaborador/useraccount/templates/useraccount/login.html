@@ -1,0 +1,76 @@
+{% extends "useraccount/base.html" %}
+
+{% block script %}
+{#    <script>#}
+{#        $(document).ready(function() {#}
+{#            $("#criar").click( function() {#}
+{#                window.location.href = '{% url 'colaborador.core.views.usercreate' %}';#}
+{#            });#}
+{#        });#}
+{#    </script>#}
+{% endblock %}
+
+{% block content %}
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
+    <div class="container">
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><strong>Conecte-se por favor</strong></h3>
+                    </div>
+                    {% if form.non_field_errors %}<div class="alert alert-danger" role="alert">{{ form.non_field_errors }}</div>{% endif %}
+                    <div class="panel-body">
+                        <form id="login" name="login" method="post" action="{% url 'login' %}">{% csrf_token %}
+                            {% for field in form %}
+                                 <div class="form-group">
+                                    {{ field.errors }}
+                                    {{ field.label_tag }} {{ field }}
+{#                                    {% if field.help_text %}#}
+{#                                    <p class="help">{{ field.help_text|safe }}</p>#}
+{#                                    {% endif %}#}
+                                </div>
+                            {% endfor %}
+                            <button type="submit" class="btn btn-success">Entrar</button>
+                            <button type="button" id="criar" class="btn btn-primary" aria-expanded="false">Criar Usuário</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{#{% if next %}#}
+{#    {% if user.is_authenticated %}#}
+{#    <p>Your account doesn't have access to this page. To proceed,#}
+{#    please login with an account that has access.</p>#}
+{#    {% else %}#}
+{#    <p>Please login to see this page.</p>#}
+{#    {% endif %}#}
+{#{% endif %}#}
+
+{#<form method="post" action="{% url 'login' %}">#}
+{#{% csrf_token %}#}
+{#<table>#}
+{#<tr>#}
+{#    <td>{{ form.username.label_tag }}</td>#}
+{#    <td>{{ form.username }}</td>#}
+{#</tr>#}
+{#<tr>#}
+{#    <td>{{ form.password.label_tag }}</td>#}
+{#    <td>{{ form.password }}</td>#}
+{#</tr>#}
+{#</table>#}
+{##}
+{#<input type="submit" value="login" />#}
+{#<input type="hidden" name="next" value="{{ next }}" />#}
+{#</form>#}
+
+{# Assumes you setup the password_reset view in your URLconf #}
+{#<p><a href="{% url 'password_reset' %}">Lost password?</a></p>#}
+
+{% endblock %}

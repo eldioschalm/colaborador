@@ -4,7 +4,7 @@
 
 //jQuery(function($){
 $(document).ready(function() {
-    $('#id_userprofile-0-telefone').mask("(99) 9999-9999");
+    $('#id_userprofile-0-telefone').mask("(99) 9999?9-9999");
     $('#id_userprofile-0-cpf').mask('999.999.999-99');
 
     $("#id_id_userprofile-0-telefone").on("blur", function() {

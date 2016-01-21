@@ -4,6 +4,8 @@
 /local
 /.git
 /.idea
+/utils
+/share
 *.pyc
 db.sqlite3
 settings.conf

@@ -4,6 +4,7 @@ from django.shortcuts import redirect
 from django.contrib.auth import authenticate, login
 from django.contrib.auth import logout
 from colaborador.useraccount.forms import UserForm
+from colaborador.useraccount.forms import UserCreateForm
 from django.forms.forms import NON_FIELD_ERRORS
 
 
@@ -50,3 +51,22 @@ def auth_logout(request):
     logout(request) #desloga
     return redirect('colaborador.core.views.landinpage')
     # tipos de mensagem: alert-success, alert-info, alert-warning, alert-danger
+
+
+def usercreate(request):
+    if request.method == 'POST':
+        form = UserCreateForm(request.POST)
+        if form.is_valid():
+            # import ipdb
+            # ipdb.set_trace()
+            user = form.save(commit=False)
+            user.set_password(request.POST.get('password', None))
+            user = form.save()
+            # return render(request, 'core/index.html', {'mensagem': u'Usuário criado com sucesso, utilização liberada.'})
+            return redirect('colaborador.core.views.landinpage')
+        else:
+            return render(request, 'useraccount/usercreate.html', {'form': form})
+    else:
+        form = UserCreateForm()
+
+    return render(request, 'useraccount/usercreate.html', {'form': form})

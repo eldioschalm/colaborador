@@ -1,13 +1,17 @@
 {% extends "useraccount/base.html" %}
 
+{% block title %}
+    Autenticação
+{% endblock %}
+
 {% block script %}
-{#    <script>#}
-{#        $(document).ready(function() {#}
-{#            $("#criar").click( function() {#}
-{#                window.location.href = '{% url 'colaborador.core.views.usercreate' %}';#}
-{#            });#}
-{#        });#}
-{#    </script>#}
+    <script>
+        $(document).ready(function() {
+            $("#criar").click( function() {
+                window.location.href = '{% url 'colaborador.useraccount.views.usercreate' %}';
+            });
+        });
+    </script>
 {% endblock %}
 
 {% block content %}

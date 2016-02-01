@@ -5,6 +5,13 @@
 {% endblock %}
 
 {% block script %}
+    <script>
+        $(document).ready(function() {
+            $("#cancelar").click( function() {
+                window.location.href = '{% url 'colaborador.core.views.landinpage' %}';
+            });
+        });
+    </script>
 {% endblock %}
 
 {% block content %}
@@ -33,6 +40,7 @@
                                 </div>
                             {% endfor %}
                             <button type="submit" class="btn btn-success">Criar</button>
+                            <button type="button" id="cancelar" class="btn btn-primary" aria-expanded="false">Cancelar</button>
                         </form>
                     </div>
                 </div>

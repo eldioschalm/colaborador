@@ -62,7 +62,15 @@ def usercreate(request):
             user = form.save(commit=False)
             user.set_password(request.POST.get('password', None))
             user = form.save()
-            # return render(request, 'core/index.html', {'mensagem': u'Usuário criado com sucesso, utilização liberada.'})
+
+            try:
+                user = authenticate(username=request.POST.get('username', None), password=request.POST.get('password', None))
+                login(request, user)
+            except AssertionError:
+                form.full_clean()
+                form._errors[NON_FIELD_ERRORS] = u'Erro na autenticação'
+                return render(request, 'useraccount/login.html', {'form': form})
+
             return redirect('colaborador.core.views.landinpage')
         else:
             return render(request, 'useraccount/usercreate.html', {'form': form})

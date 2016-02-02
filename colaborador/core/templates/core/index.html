@@ -1,11 +1,26 @@
-{% extends "useraccount/base.html" %}
+{% extends "core/base.html" %}
+
+{% block title %}
+    Sistema de colaboradores
+{% endblock %}
 
 {% block script %}
-
 {% endblock %}
 
 {% block content %}
-<h1>sistema</h1>
-
-{{ mensagem }}
+<div class="panel panel-default">
+    <div class="panel-heading"><strong>Editais abertos</strong></div>
+    <div class="panel-body">
+        <div class="list-group">
+            <a href="#" class="list-group-item">
+                <p class="list-group-item-heading">Edital 007/2015 - CBA</p>
+                <p class="list-group-item-text">Edital para vestibular ensino médio do campus CBA</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <p class="list-group-item-heading">Edital 003/2015 - BLV</p>
+                <p class="list-group-item-text">Edital para vestibular ensino superior do campus BLV</p>
+            </a>
+        </div>
+    </div>
+</div>
 {% endblock %}

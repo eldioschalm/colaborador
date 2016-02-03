@@ -49,7 +49,8 @@ def auth_login(request):
 
 def auth_logout(request):
     logout(request) #desloga
-    return redirect('colaborador.core.views.landinpage')
+    # return redirect('colaborador.core.views.landinpage')
+    return render(request, 'core/index.html', {'mensagem': u'Desconectado do sistema.', 'tipo': 'alert-danger'})
     # tipos de mensagem: alert-success, alert-info, alert-warning, alert-danger
 
 

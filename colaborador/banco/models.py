@@ -12,4 +12,4 @@ class Banco(models.Model):
         verbose_name_plural = 'Bancos'
 
     def __unicode__(self):
-        return self.nome
+        return str(self.numero) + ' --> ' + self.nome
